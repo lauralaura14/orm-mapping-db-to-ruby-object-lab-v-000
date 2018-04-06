@@ -24,7 +24,7 @@ class Student
     sql = <<-SQL
       SELECT *
       FROM students
-      WHERE NAME = ?
+      WHERE name = ?
       LIMIT = 1
     SQL
 
