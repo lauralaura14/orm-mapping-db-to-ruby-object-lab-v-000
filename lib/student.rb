@@ -2,7 +2,7 @@ class Student
   attr_accessor :id, :name, :grade
 
   def self.new_from_db(row)
-    new_song = self.new_song
+    new_song = self.new
     new_song.id = row[0]
     new_song.name = row[1]
     new_song.grade = row[2]
